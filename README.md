@@ -57,12 +57,6 @@ This will execute the tests using Vitest, a Vite-native unit test framework.
   npm run lint
   ```
 
-- **Preview the Production Build**: To preview the production build locally, run:
-
-  ```bash
-  npm run preview
-  ```
-
 ## Dependencies
 
 - "@eslint/js": ESLint configuration for JavaScript

@@ -19,7 +19,7 @@ function Scenario ({onClose, 'data-testid': testId, children}: ScenarioProps) {
     return () => {
       document.removeEventListener('keydown', handleKeyDown);
     };
-  }, []);
+  });
 
   return (
     <div
