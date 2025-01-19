@@ -13,7 +13,7 @@ This project is a mini component library built using React, TypeScript, and Vite
 
 ## Prerequisites
 
-- **Node.js**: Ensure you have Node.js version 14.x or later installed.
+- **Node.js**: Ensure you have Node.js version 18.x or later installed.
 
 ## Getting Started
 
@@ -31,7 +31,7 @@ This project is a mini component library built using React, TypeScript, and Vite
    npm run dev
    ```
 
-   This will start the Vite development server, and you can view your project at `http://localhost:3000`.
+   This will start the Vite development server, and you can view your project at `http://localhost:5173/`.
 
 ### Running Tests
 
