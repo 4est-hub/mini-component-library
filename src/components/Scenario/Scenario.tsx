@@ -5,8 +5,10 @@
 import React, { useEffect } from 'react';
 import styles from "./Scenario.module.scss";
 import { ScenarioProps } from "./props";
+import { useTheme } from "../../utils/theme";
 
 function Scenario ({onClose, 'data-testid': testId, children}: ScenarioProps) {
+  const theme = useTheme(); 
 
   const handleKeyDown = (event: KeyboardEvent) => {
     if (event.key === 'Escape' && onClose) {
@@ -26,6 +28,9 @@ function Scenario ({onClose, 'data-testid': testId, children}: ScenarioProps) {
       data-testid={testId}
       className={`${styles.scenario} modal`}
       role="dialog"
+      style={{
+        backgroundColor: theme.colors.primary
+      }}
     >
       <header
         role="heading"

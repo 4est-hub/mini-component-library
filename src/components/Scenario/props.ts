@@ -4,5 +4,6 @@ export type ScenarioProps = React.HTMLAttributes<HTMLDivElement> & {
   isOpen?: boolean;  // optional prop standard with modals
   onClose?: () => void;
   'data-testid'?: string;
+  variant?: 'primary' | 'seconday' | 'error';
 };
   
